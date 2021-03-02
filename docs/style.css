@@ -1,0 +1,268 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: black;
+    height: 100%;
+}
+
+header,
+footer,
+section,
+article {
+    background-color: black;
+    color: black;
+    width: 100%;
+    }
+   a {
+       color: black;
+       text-decoration: none;
+
+   }
+
+#pcmrheader {
+    background-image: url(Pictures/zdj.jpg);
+}
+
+header {
+    background-image: url(Pictures/zdj.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 16vw;
+}
+
+#tytul {
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 9%;
+    position: relative;
+}
+
+#rgb {
+    font-family: headerfont;
+    font-size: 85px;
+    letter-spacing: 2px;
+    animation-name: kolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kolor {
+    0% {color: lightseagreen;}
+    20% {color: green;}
+    40% {color: yellow;}
+    60% {color: red;}
+    80% {color: blue;}
+    100% {color: purple;}
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url(Fonts/source/SourceCodePro-Regular.ttf);
+}
+
+nav {
+    background-color: red;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    font-family: headerfont;
+    }
+    nav ul li {
+        display: inline;
+        margin: 5%;    
+        }
+        
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+            font-weight: 700;
+            }
+
+@font-face {
+    font-family: navfont;
+    src: url(Fonts/Comforta/Comfortaa-VariableFont_wght.ttf);
+}
+
+#section {
+    width: 90%;
+    min-height: 50vw;
+    position: static;
+    background-image: url(Pictures/moje\ stanowisko\ 2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+aside {
+    color: white;
+}
+article {
+    color: white;
+}
+#pcmrsection {
+    width: 90%;
+    min-height: 75vw;
+    font-family: nunito;
+    font-size: 150%;
+}
+#hardwaresection {
+    width: 90%;
+    min-height: 50vw;
+    font-family: nunito;
+    font-size: 150%;
+}
+#podzialsection {
+    width: 90%;
+    min-height: 100vw;
+    font-family: nunito;
+    font-size: 150%;
+}
+#kontaktsection {
+    width: 90%;
+    min-height: 30vw;
+    font-family: nunito;
+    font-size: 150%;
+    color: white;
+}
+#kontaktaside {
+    margin: 0 auto;
+}
+#img {
+    padding-top: 2%;
+    float: left;
+    width: 45vw;
+}
+.img2 {
+    width: 450px;
+    height: 250px;
+}
+.img3 {
+    width: 350px;
+    height: 300px;
+}
+#img4 {
+    width: 350px;
+    height: 300px;
+}
+#text {
+    color: white;
+    float: right;
+    font-family: nunito;
+    font-size: 120%;
+    width: 40%;
+    margin-right: 8%;
+    padding-top: 2%;
+}
+#div {
+    padding-top: 2%;
+    padding-left: 6%;
+    float: left;
+    font-size: 130%;
+}
+#div2 {
+    padding-top: 1%;
+    float: left;
+}
+#prawy {
+    color: white;
+    float: right;
+    font-family: nunito;
+    font-size: 150%;
+    width: 35%;
+    min-height: 12vw;
+    margin-right: 8%;
+    padding-top: 3%;
+}
+#podzialtext {
+    padding-top: 2%;
+    padding-left: 6%;
+    font-size: 130%;
+}
+.prawyzdj {
+    float: left;
+    padding-left: 6%;
+    padding-top: 1%;
+}
+
+figcaption {
+    margin: 0 auto;
+    width: 400px;
+}
+.textfigcaption {
+    padding-top: 1%;
+    font-size: 90%;
+    font-family: catamaran;
+    color: white;
+}
+@font-face {
+    font-family: catamaran;
+    src: url(Fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+#texthardware {
+    padding-top: 2%;
+    text-align: center;
+}
+#pierwszyakapitpcmr {
+    font-size: 140%;
+}
+
+#pcmriframe {
+    margin-top: 3%;
+    float: right;
+}
+#moje {
+    width: 400px;
+    height: 500px;
+}
+#div3 {
+    float: left;
+    margin-top: 5%;
+}
+#imgpcmr {
+    width: 100%;
+}
+#divkontakt {
+    padding-top: 3%;
+    text-align: center;
+}
+#animation {
+    padding-top: 10%;
+    width: 300px;
+    animation: animacja 4s normal forwards;
+    font-family: nunito;
+    font-size: 30px;
+    color: white;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(Fonts/Nunito/Nunito-ExtraBold.ttf);
+}
+
+  @keyframes animacja {
+      0% {
+          transform: translateX(-3000px)
+      }
+    100% {
+      transform: translateX(-300px);
+    }
+  }
+
+footer {
+    width: 100%;
+    min-height: 0.5vw;
+    background-color: rgb(99, 99, 99);
+    background-position: center bottom;
+    font-family: headerfont;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+#znaczek {
+    font-size: 4vw;
+    scroll-behavior: smooth;
+}
+
